@@ -1,4 +1,3 @@
-import '../../../styles/bubble.css'
 import { getColorSet } from '../../../utils/Styles/Color'
 import SizeType from '../../../utils/Styles/Size'
 export interface BubbleProps {
@@ -8,7 +7,7 @@ export interface BubbleProps {
 }
 
 const getStyle = (props: BubbleProps) => {
-  const styles = ['bubble', 'font-semibold', 'inline-block', 'relative']
+  const styles = ['bubble', 'font-semibold', 'inline-block', 'relative', 'ml-3']
   const colorSet = getColorSet('success')
   styles.push(colorSet.bg, colorSet.text)
   switch (props.size) {
