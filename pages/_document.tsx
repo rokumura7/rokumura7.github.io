@@ -16,7 +16,6 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>rokumura | portfolio</title>
           <link rel="shortcut icon" href="/static/favicon.ico" />
         </Head>
         <body>
