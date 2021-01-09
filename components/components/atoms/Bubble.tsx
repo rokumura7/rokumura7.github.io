@@ -1,4 +1,5 @@
 import '../../../styles/bubble.css'
+import React from 'react'
 import { getColorSet } from '../../../utils/Styles/Color'
 import SizeType from '../../../utils/Styles/Size'
 export interface BubbleProps {

@@ -17,5 +17,5 @@ module.exports = {
   //   '<rootDir>/components/**/*.tsx',
   //   '<rootDir>/utils/**/*.ts',
   // ],
-  testMatch: ['**/test/**/*.test.ts'],
+  testMatch: ['**/test/**/*.test.ts', '**/test/**/*.test.tsx'],
 }

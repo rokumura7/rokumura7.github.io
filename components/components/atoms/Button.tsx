@@ -1,3 +1,4 @@
+import React from 'react'
 import ColorType, { getColorSet } from '../../../utils/Styles/Color'
 import SizeType from '../../../utils/Styles/Size'
 export interface ButtonProps {
