@@ -1,14 +1,5 @@
-import Header from '../components/containers/organisms/Header'
+import IndexPage from '../components/containers/pages/IndexPage'
 
-const Index = () => (
-  <div>
-    <Header />
-    <div className="py-20">
-      <h1 className="text-5xl text-center text-accent-1">
-        Next.js + Tailwind CSS
-      </h1>
-    </div>
-  </div>
-)
+const Index = () => <IndexPage />
 
 export default Index

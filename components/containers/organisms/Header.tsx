@@ -1,11 +1,17 @@
+import Link from 'next/link'
 import Bubble from '../../components/atoms/Bubble'
 import Icon from '../../components/atoms/Icon'
 
 const Header = () => (
-  <header>
-    <nav className="flex items-center p-2 pr-4">
-      <div className="flex-grow">
+  <header className="bg-white">
+    <nav className="flex items-center px-4 py-2">
+      <div className="mr-6">
         <Bubble label="Hello." />
+      </div>
+      <div className="flex-grow justify-between space-x-10">
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
+        <span>Works</span>
       </div>
       <div>
         <div className="justify-between space-x-5">
