@@ -3,6 +3,7 @@ import App from 'next/app'
 import Head from 'next/head'
 
 import '../styles/index.css'
+import '../styles/common.css'
 import '../styles/bubble.css'
 
 class MyApp extends App {
