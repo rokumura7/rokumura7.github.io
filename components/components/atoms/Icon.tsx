@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faTwitterSquare,
-  faGithubSquare,
-  faFacebookSquare,
+  faGithub,
+  faFacebook,
 } from '@fortawesome/free-brands-svg-icons'
 import SizeType from '../../../utils/Styles/Size'
 
@@ -16,11 +16,11 @@ export interface IconProps {
 const getIcon = (type: IconType) => {
   switch (type) {
     case 'fb':
-      return faFacebookSquare
+      return faFacebook
     case 'tw':
       return faTwitterSquare
     default:
-      return faGithubSquare
+      return faGithub
   }
 }
 
