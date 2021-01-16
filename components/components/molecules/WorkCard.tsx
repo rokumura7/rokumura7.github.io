@@ -8,6 +8,7 @@ export interface WorkCardProps {
   title: string
   url: string
   detail: string
+  image?: string
   ghUrl?: string
   icons?: IconType[]
 }
@@ -25,9 +26,12 @@ const renderIcons = (icons?: IconType[]) => {
 
 const WorkCard = (props: WorkCardProps) => (
   <Link href={props.url}>
-    <div className="bg-white text-gray-800 w-4/5 m-auto mb-10">
+    <div className="bg-white text-black w-3/5 m-auto mb-10">
       <div className="flex w-full border">
-        <Image path="/static/img/pig.png" size="lg" />
+        <Image
+          path={props.image ? props.image : '/static/img/pig.png'}
+          size="lg"
+        />
         <div className="py-1 pr-1">
           <div className="flex">
             <h2 className="mr-5">
@@ -35,8 +39,8 @@ const WorkCard = (props: WorkCardProps) => (
             </h2>
             {renderGh(props.ghUrl)}
           </div>
-          <p>{props.detail}</p>
           {renderIcons(props.icons)}
+          <p className="mt-2 text-gray-700">{props.detail}</p>
         </div>
       </div>
     </div>
