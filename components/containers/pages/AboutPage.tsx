@@ -3,6 +3,7 @@ import GitHubGrassGraph from '../../components/atoms/GitHubGrassGraph'
 import Image from '../../components/atoms/Image'
 import Icons from '../../components/molecules/Icons'
 import ProfileContent from '../../components/molecules/ProfileContent'
+import { contents } from '../../../contents/Profile'
 
 const AboutPage = () => (
   <Layout>
@@ -23,36 +24,14 @@ const AboutPage = () => (
               </p>
               <p>Always being hungry, am eating something.</p>
               <ul className="mt-5">
-                <li className="mb-5">
-                  <ProfileContent
-                    title="EXPERIENCE"
-                    contents={[
-                      'Project Leader.',
-                      'Bridge Engineer.',
-                      'Instructor of Programming for beginners or kids.',
-                    ]}
-                  />
-                </li>
-                <li className="mb-5">
-                  <ProfileContent
-                    title="INTERESTED"
-                    contents={[
-                      'Object-oriented Programming.',
-                      'Domain Driven Development.',
-                    ]}
-                  />
-                </li>
-                <li className="mb-5">
-                  <ProfileContent
-                    title="LOVE"
-                    contents={[
-                      'Dog',
-                      'Beer',
-                      'Anything that tastes good',
-                      'Programming',
-                    ]}
-                  />
-                </li>
+                {contents.map((content) => (
+                  <li className="mb-5">
+                    <ProfileContent
+                      title={content.title}
+                      contents={content.contents}
+                    />
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
