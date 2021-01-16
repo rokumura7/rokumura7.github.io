@@ -6,3 +6,20 @@ div#__next > div,
 div#__next > div > div {
   height: 100%;
 }
+
+.leaning {
+  position: relative;
+  z-index: 0;
+}
+.leaning::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: skewY(-4deg);
+  transform-origin: bottom left;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
