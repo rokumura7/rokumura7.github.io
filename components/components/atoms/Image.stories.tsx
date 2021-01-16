@@ -1,4 +1,4 @@
-import { Story, Mata } from '@storybook/react/types-6-0'
+import { Story, Meta } from '@storybook/react/types-6-0'
 import Image, { ImageProps } from './Image'
 
 export default {
