@@ -1,20 +1,20 @@
 import MyDevIcon, { IconType } from '../atoms/MyDevIcon'
 
 const langs: IconType[] = [
+  'java',
+  // 'scala',
+  'php',
+  'javascript',
+  'typescript',
+  'node',
+  'swift',
+  'react',
+  'vue',
+  'intellij',
+  'git',
+  'mysql',
   'amazonwebservices',
   'docker',
-  'git',
-  'intellij',
-  'java',
-  'javascript',
-  'mysql',
-  'node',
-  'php',
-  'react',
-  // 'scala',
-  'swift',
-  'typescript',
-  'vue',
 ]
 
 const Icons = () => (
