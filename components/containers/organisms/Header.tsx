@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import Bubble from '../../components/atoms/Bubble'
 import Icon from '../../components/atoms/Icon'
 
 const Header = () => {
