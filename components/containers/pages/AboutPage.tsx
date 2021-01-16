@@ -2,6 +2,24 @@ import Layout from '../layouts/Layout'
 import GitHubGrassGraph from '../../components/atoms/GitHubGrassGraph'
 import Image from '../../components/atoms/Image'
 import Bubble from '../../components/atoms/Bubble'
+import MyDevIcon, { IconType } from '../../components/atoms/MyDevIcon'
+
+const langs: IconType[] = [
+  'amazonwebservices',
+  'docker',
+  'git',
+  'intellij',
+  'java',
+  'javascript',
+  'mysql',
+  'node',
+  'php',
+  'react',
+  // 'scala',
+  'swift',
+  'typescript',
+  'vue',
+]
 
 const AboutPage = () => (
   <Layout>
@@ -56,7 +74,16 @@ const AboutPage = () => (
             </div>
           </div>
           <div className="h-2/5 p-2">
-            <GitHubGrassGraph />
+            <div className="w-3/5 m-auto">
+              {langs.map((lang) => (
+                <div className="m-3 inline-block">
+                  <MyDevIcon icon={lang} size="md" />
+                </div>
+              ))}
+            </div>
+            <div className="mt-10 w-3/5 m-auto">
+              <GitHubGrassGraph />
+            </div>
           </div>
         </div>
       </div>
