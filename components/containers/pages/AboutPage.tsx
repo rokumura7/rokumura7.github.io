@@ -1,25 +1,8 @@
 import Layout from '../layouts/Layout'
 import GitHubGrassGraph from '../../components/atoms/GitHubGrassGraph'
 import Image from '../../components/atoms/Image'
-import Bubble from '../../components/atoms/Bubble'
-import MyDevIcon, { IconType } from '../../components/atoms/MyDevIcon'
-
-const langs: IconType[] = [
-  'amazonwebservices',
-  'docker',
-  'git',
-  'intellij',
-  'java',
-  'javascript',
-  'mysql',
-  'node',
-  'php',
-  'react',
-  // 'scala',
-  'swift',
-  'typescript',
-  'vue',
-]
+import Icons from '../../components/molecules/Icons'
+import ProfileContent from '../../components/molecules/ProfileContent'
 
 const AboutPage = () => (
   <Layout>
@@ -40,46 +23,42 @@ const AboutPage = () => (
               </p>
               <p>Always being hungry, am eating something.</p>
               <ul className="mt-5">
-                <li className="flex mb-5">
-                  <h2 className="w-32">
-                    <Bubble label="EXPERIENCE" />
-                  </h2>
-                  <div className="ml-5 w-96">
-                    <p>- Project Leader.</p>
-                    <p>- Bridge Engineer.</p>
-                    <p>- Instructor of Programming for beginners or kids.</p>
-                  </div>
+                <li className="mb-5">
+                  <ProfileContent
+                    title="EXPERIENCE"
+                    contents={[
+                      'Project Leader.',
+                      'Bridge Engineer.',
+                      'Instructor of Programming for beginners or kids.',
+                    ]}
+                  />
                 </li>
-                <li className="flex mb-5">
-                  <h2 className="w-32">
-                    <Bubble label="INTERESTED" />
-                  </h2>
-                  <div className="ml-5 w-96">
-                    <p>- Object-oriented Programming.</p>
-                    <p>- Domain Driven Development.</p>
-                  </div>
+                <li className="mb-5">
+                  <ProfileContent
+                    title="INTERESTED"
+                    contents={[
+                      'Object-oriented Programming.',
+                      'Domain Driven Development.',
+                    ]}
+                  />
                 </li>
-                <li className="flex mb-5">
-                  <h2 className="w-32">
-                    <Bubble label="LOVE" />
-                  </h2>
-                  <div className="ml-5 w-96">
-                    <p>- Dog</p>
-                    <p>- Beer</p>
-                    <p>- Anything that tastes good</p>
-                    <p>- Programming</p>
-                  </div>
+                <li className="mb-5">
+                  <ProfileContent
+                    title="LOVE"
+                    contents={[
+                      'Dog',
+                      'Beer',
+                      'Anything that tastes good',
+                      'Programming',
+                    ]}
+                  />
                 </li>
               </ul>
             </div>
           </div>
           <div className="h-2/5 p-2">
             <div className="w-3/5 m-auto">
-              {langs.map((lang) => (
-                <div className="m-3 inline-block">
-                  <MyDevIcon icon={lang} size="md" />
-                </div>
-              ))}
+              <Icons />
             </div>
             <div className="mt-10 w-3/5 m-auto">
               <GitHubGrassGraph />
