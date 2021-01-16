@@ -3,7 +3,9 @@ import Game from './Game'
 
 const TicTacToePage = () => (
   <Layout>
-    <Game />
+    <div className="pt-20 flex justify-center m-auto">
+      <Game />
+    </div>
   </Layout>
 )
 

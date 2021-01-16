@@ -8,6 +8,7 @@ export const works = [
     ghUrl:
       'https://github.com/rokumura7/portfolio/tree/main/components/containers/pages/works/tictactoe',
     icons: ['react'],
+    image: '/static/img/works/tictaktoe.png',
   },
   {
     title: 'Hungry Shark',

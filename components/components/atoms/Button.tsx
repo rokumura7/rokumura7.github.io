@@ -5,6 +5,7 @@ export interface ButtonProps {
   size?: SizeType
   roundFull?: boolean
   color?: ColorType
+  onClick?: () => void
 }
 
 const getStyle = (props: ButtonProps) => {
@@ -27,6 +28,8 @@ const getStyle = (props: ButtonProps) => {
 }
 
 const Button = (props: ButtonProps) => (
-  <button className={getStyle(props)}>{props.label}</button>
+  <button className={getStyle(props)} onClick={props.onClick}>
+    {props.label}
+  </button>
 )
 export default Button

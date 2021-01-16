@@ -34,7 +34,7 @@ const WorkCard = (props: WorkCardProps) => (
         />
         <div className="py-1 pr-1">
           <div className="flex">
-            <h2 className="mr-5">
+            <h2 className="-ml-5 mr-5 z-10">
               <Bubble label={props.title} left />
             </h2>
             {renderGh(props.ghUrl)}
