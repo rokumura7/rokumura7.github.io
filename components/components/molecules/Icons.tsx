@@ -1,25 +1,11 @@
 import MyDevIcon, { IconType } from '../atoms/MyDevIcon'
+export interface IconsProps {
+  icons: IconType[]
+}
 
-const langs: IconType[] = [
-  'java',
-  // 'scala',
-  'php',
-  'javascript',
-  'typescript',
-  'node',
-  'swift',
-  'react',
-  'vue',
-  'intellij',
-  'git',
-  'mysql',
-  'amazonwebservices',
-  'docker',
-]
-
-const Icons = () => (
+const Icons = (props: IconsProps) => (
   <div>
-    {langs.map((lang) => (
+    {props.icons.map((lang) => (
       <div className="m-3 inline-block">
         <MyDevIcon icon={lang} size="md" />
       </div>

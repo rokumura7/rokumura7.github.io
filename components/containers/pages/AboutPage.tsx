@@ -4,6 +4,7 @@ import Image from '../../components/atoms/Image'
 import Icons from '../../components/molecules/Icons'
 import ProfileContent from '../../components/molecules/ProfileContent'
 import { contents } from '../../../contents/Profile'
+import { experiences } from '../../../contents/Icons'
 
 const AboutPage = () => (
   <Layout>
@@ -37,7 +38,7 @@ const AboutPage = () => (
           </div>
           <div className="h-2/5 p-2">
             <div className="w-3/5 m-auto">
-              <Icons />
+              <Icons icons={experiences} />
             </div>
             <div className="mt-10 w-3/5 m-auto">
               <GitHubGrassGraph />
