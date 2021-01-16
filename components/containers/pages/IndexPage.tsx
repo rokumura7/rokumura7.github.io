@@ -11,7 +11,7 @@ const IndexPage = () => (
         muted
       />
       <div className="flex justify-center items-center absolute inset-0 text-white">
-        <p className="text-xl">Laziness, Impatience, and Hunger.</p>
+        <p className="text-xl">Laziness, Impatience, and Hungry.</p>
       </div>
     </div>
   </Layout>
