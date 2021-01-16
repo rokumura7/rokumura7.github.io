@@ -13,4 +13,5 @@ ImageExample.args = {
   path: '/img/pig.png',
   size: 'md',
   round: true,
+  bordered: true,
 }

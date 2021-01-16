@@ -3,6 +3,7 @@ export interface ImageProps {
   path: string
   size?: SizeType
   round?: boolean
+  bordered?: boolean
 }
 
 const getStyle = (props: ImageProps) => {
@@ -19,6 +20,7 @@ const getStyle = (props: ImageProps) => {
       break
   }
   if (props.round) styles.push('rounded-full')
+  if (props.bordered) styles.push('border-solid border border-gray-500')
   return styles.join(' ')
 }
 
