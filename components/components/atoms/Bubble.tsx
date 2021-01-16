@@ -4,10 +4,12 @@ export interface BubbleProps {
   label: string
   size?: SizeType
   round?: boolean
+  left?: boolean
 }
 
 const getStyle = (props: BubbleProps) => {
-  const styles = ['bubble', 'font-semibold', 'inline-block', 'relative', 'ml-3']
+  const styles = ['font-semibold', 'inline-block', 'relative']
+  styles.push(props.left ? 'bubble-left' : 'bubble-right')
   const colorSet = getColorSet('success')
   styles.push(colorSet.bg, colorSet.text)
   switch (props.size) {

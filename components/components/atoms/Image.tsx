@@ -7,7 +7,7 @@ export interface ImageProps {
 }
 
 const getStyle = (props: ImageProps) => {
-  const styles = ['test']
+  const styles = ['inline-block']
   switch (props.size) {
     case 'sm':
       styles.push('w-16')
