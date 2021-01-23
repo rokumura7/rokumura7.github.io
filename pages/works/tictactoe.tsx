@@ -1,4 +1,4 @@
-import TicTacToePage from '../../components/containers/pages/works/tictactoe/TicTacToePage'
+import { TicTacToePage } from '../../components/containers/pages/works'
 
 const TicTacToe = () => <TicTacToePage />
 

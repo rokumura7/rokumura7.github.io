@@ -8,7 +8,7 @@ const getUrl = (rotate?: boolean) =>
 
 const GitHubGrassGraph = (props: GitHubGrassGraphProps) => (
   <a href="https://github.com/rokumura7">
-    <img src={getUrl(props.rotate)}></img>
+    <img className="w-full" src={getUrl(props.rotate)}></img>
   </a>
 )
 

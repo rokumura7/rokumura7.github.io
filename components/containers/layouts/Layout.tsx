@@ -1,4 +1,4 @@
-import Header from '../organisms/Header'
+import { Header } from '../organisms'
 
 export interface LayoutProps {
   children: JSX.Element

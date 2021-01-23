@@ -1,5 +1,6 @@
 import SizeType from '@/utils/Styles/Size'
-import MyDevIcon, { IconType } from '../atoms/MyDevIcon'
+import { MyDevIcon } from '../atoms'
+import { IconType } from '../atoms/MyDevIcon'
 export interface IconsProps {
   icons: IconType[]
   size?: SizeType

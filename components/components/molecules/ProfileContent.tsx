@@ -1,4 +1,4 @@
-import Bubble from '../../components/atoms/Bubble'
+import { Bubble } from '../../components/atoms'
 export interface ProfileContentProps {
   title: string
   contents: string[]
