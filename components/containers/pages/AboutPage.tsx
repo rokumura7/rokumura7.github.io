@@ -18,7 +18,7 @@ const AboutPage = () => (
               <div className="px-5">
                 <Image path="/static/img/profile.png" round size="md" />
               </div>
-              <div className="px-5 w-2/3">
+              <div className="px-5">
                 <h1 className="text-5xl text-white">Reo Okumura</h1>
                 <p>
                   I’m a freelance as a Full Stack Web Developer who likes Static
