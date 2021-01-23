@@ -2,7 +2,7 @@
   content: '';
   position: absolute;
   top: 50%;
-  left: -14px;
+  left: -13px;
   margin-top: -7px;
   border: 7px solid transparent;
   border-right: 7px solid rgba(16, 185, 129);
@@ -16,4 +16,24 @@
   margin-top: -7px;
   border: 7px solid transparent;
   border-left: 7px solid rgba(16, 185, 129);
+}
+
+.bubble-top:before {
+  content: '';
+  position: absolute;
+  top: -13px;
+  left: 25%;
+  margin-left: -7px;
+  border: 7px solid transparent;
+  border-bottom: 7px solid rgba(16, 185, 129);
+}
+
+.bubble-bottom:before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 25%;
+  margin-left: -7px;
+  border: 7px solid transparent;
+  border-top: 7px solid rgba(16, 185, 129);
 }

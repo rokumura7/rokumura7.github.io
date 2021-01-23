@@ -4,19 +4,23 @@ export interface ImageProps {
   size?: SizeType
   round?: boolean
   bordered?: boolean
+  responsive?: boolean
 }
 
 const getStyle = (props: ImageProps) => {
   const styles = ['inline-block']
   switch (props.size) {
     case 'sm':
-      styles.push('w-16')
+      styles.push(props.responsive ? 'sm:w-16' : 'w-16')
       break
     case 'lg':
-      styles.push('w-48')
+      styles.push(props.responsive ? 'sm:w-48' : 'w-48')
+      break
+    case 'md':
+      styles.push(props.responsive ? 'sm:w-32' : 'w-32')
       break
     default:
-      styles.push('w-32')
+      styles.push('w-full max-w-xs')
       break
   }
   if (props.round) styles.push('rounded-full')

@@ -1,15 +1,29 @@
 import { getColorSet } from '../../../utils/Styles/Color'
 import SizeType from '../../../utils/Styles/Size'
+type Direction = 'right' | 'left' | 'top' | 'bottom'
 export interface BubbleProps {
   label: string
   size?: SizeType
   round?: boolean
-  left?: boolean
+  direction?: Direction
 }
 
 const getStyle = (props: BubbleProps) => {
   const styles = ['font-semibold', 'inline-block', 'relative']
-  styles.push(props.left ? 'bubble-left' : 'bubble-right')
+  switch (props.direction) {
+    case 'left':
+      styles.push('bubble-left')
+      break
+    case 'top':
+      styles.push('bubble-top')
+      break
+    case 'bottom':
+      styles.push('bubble-bottom')
+      break
+    default:
+      styles.push('bubble-right')
+      break
+  }
   const colorSet = getColorSet('success')
   styles.push(colorSet.bg, colorSet.text)
   switch (props.size) {
