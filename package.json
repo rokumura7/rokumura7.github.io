@@ -39,6 +39,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "test": "jest",
     "storybook": "start-storybook -p 6006 -s ./static",
     "build-storybook": "build-storybook"
