@@ -5,11 +5,11 @@ export interface ProfileContentProps {
 }
 
 const ProfileContent = (props: ProfileContentProps) => (
-  <div className="flex">
-    <h2 className="w-32">
+  <div className="sm:flex">
+    <h2 className="w-32 text-white">
       <Bubble label={props.title} />
     </h2>
-    <div className="ml-5 w-96">
+    <div className="ml-10 w-96">
       {props.contents.map((content) => (
         <p>- {content}</p>
       ))}

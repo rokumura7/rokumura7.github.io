@@ -12,6 +12,9 @@ module.exports = {
       colors: {
         'accent-1': '#333',
       },
+      minWidth: {
+        387: '387px',
+      },
     },
   },
   variants: {},

@@ -11,15 +11,15 @@ const AboutPage = () => (
   <Layout>
     <div className="pt-20 bg-black">
       <LeaningBackground />
-      <div className="absolute pt-20 inset-0 h-full">
+      <div className="absolute pt-20 inset-0 h-full min-w-387">
         <div className="h-full">
-          <div className="h-3/5 pt-5 text-white">
+          <div className="h-3/5 pt-5 text-gray-400">
             <div className="flex justify-center">
               <div className="px-5">
                 <Image path="/static/img/profile.png" round />
               </div>
-              <div className="px-5 w-1/2">
-                <h1 className="text-5xl">Reo Okumura</h1>
+              <div className="px-5 w-2/3">
+                <h1 className="text-5xl text-white">Reo Okumura</h1>
                 <p>
                   I’m a freelance as a Full Stack Web Developer who likes Static
                   Typing.
@@ -41,10 +41,10 @@ const AboutPage = () => (
             </div>
           </div>
           <div className="h-2/5 p-2">
-            <div className="w-3/5 m-auto">
+            <div className="sm:w-3/5 m-auto">
               <Icons icons={experiences} />
             </div>
-            <div className="mt-10 w-3/5 m-auto">
+            <div className="mt-10 sm:w-3/5 m-auto">
               <GitHubGrassGraph />
             </div>
           </div>

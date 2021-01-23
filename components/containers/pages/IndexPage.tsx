@@ -11,7 +11,7 @@ const IndexPage = () => (
       >
         <source src="/static/mov/jellyfish.mp4" type="video/mp4"></source>
       </video>
-      <div className="flex justify-center items-center absolute inset-0 text-white">
+      <div className="flex justify-center items-center absolute inset-0 text-white min-w-387">
         <p className="text-xl">Laziness, Impatience, and Hunger.</p>
       </div>
     </div>

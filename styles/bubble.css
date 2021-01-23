@@ -12,7 +12,7 @@
   content: '';
   position: absolute;
   top: 50%;
-  left: 100%;
+  left: 99%;
   margin-top: -7px;
   border: 7px solid transparent;
   border-left: 7px solid rgba(16, 185, 129);

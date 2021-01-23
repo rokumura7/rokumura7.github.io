@@ -12,6 +12,7 @@ class MyApp extends App {
     return (
       <>
         <Head>
+          <meta name="viewport" content="width=device-width" />
           <title>rokumura | portfolio</title>
         </Head>
         <Component {...pageProps} />
