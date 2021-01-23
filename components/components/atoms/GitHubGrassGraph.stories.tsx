@@ -11,3 +11,6 @@ const Template: Story<GitHubGrassGraphProps> = (
 ) => <GitHubGrassGraph {...props} />
 
 export const GitHubGrassGraphExample = Template.bind({})
+GitHubGrassGraphExample.args = {
+  rotate: false,
+}
