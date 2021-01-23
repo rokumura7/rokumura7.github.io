@@ -1,4 +1,4 @@
-import IndexPage from '../components/containers/pages/IndexPage'
+import { IndexPage } from '../components/containers/pages'
 
 const Index = () => <IndexPage />
 

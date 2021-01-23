@@ -1,4 +1,4 @@
-import WorksPage from '../components/containers/pages/WorksPage'
+import { WorksPage } from '../components/containers/pages'
 
 const Works = () => <WorksPage />
 

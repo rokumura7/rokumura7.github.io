@@ -1,8 +1,6 @@
 import Link from 'next/link'
-import Image from '../atoms/Image'
-import Icon from '../atoms/Icon'
-import Bubble from '../atoms/Bubble'
-import Icons from './Icons'
+import { Image, Icon, Bubble } from '../atoms'
+import { Icons } from '../molecules'
 import { IconType } from '../atoms/MyDevIcon'
 export interface WorkCardProps {
   title: string
