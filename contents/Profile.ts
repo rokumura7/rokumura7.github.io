@@ -13,8 +13,4 @@ export const contents = [
     title: 'INTERESTED',
     contents: ['Object-oriented Programming.', 'Domain Driven Development.'],
   },
-  {
-    title: 'LOVE',
-    contents: ['Dog', 'Beer', 'Anything that tastes good', 'Programming'],
-  },
 ] as ProfileContentProps[]
