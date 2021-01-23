@@ -15,12 +15,12 @@ export interface WorkCardProps {
 
 const renderGh = (ghUrl?: string) => {
   if (ghUrl)
-    return <Icon type="gh" size="md" url="https://github.com/rokumura7" />
+    return <Icon type="gh" size="sm" url="https://github.com/rokumura7" />
   return
 }
 
 const renderIcons = (icons?: IconType[]) => {
-  if (icons && icons.length > 0) return <Icons icons={icons} />
+  if (icons && icons.length > 0) return <Icons icons={icons} size="sm" />
   return
 }
 
@@ -33,7 +33,7 @@ const WorkCard = (props: WorkCardProps) => (
           size="lg"
         />
         <div className="py-1 pr-1">
-          <div className="flex">
+          <div className="flex mb-2">
             <h2 className="-ml-5 mr-5 z-10">
               <Bubble label={props.title} left />
             </h2>

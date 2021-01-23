@@ -7,7 +7,7 @@ export const works = [
     detail: 'Implemented React Tutorial using TypeScript and tailwindcss.',
     ghUrl:
       'https://github.com/rokumura7/portfolio/tree/main/components/containers/pages/works/tictactoe',
-    icons: ['react'],
+    icons: ['react', 'typescript', 'git'],
     image: '/static/img/works/tictaktoe.png',
   },
   {
