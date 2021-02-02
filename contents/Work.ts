@@ -4,7 +4,7 @@ export const works = [
   {
     title: 'TicTakToe',
     url: '/works/tictactoe',
-    detail: 'Implemented React Tutorial using TypeScript and tailwindcss.',
+    detail: 'Implemented React Tutorial using TypeScript and Tailwind CSS.',
     ghUrl:
       'https://github.com/rokumura7/portfolio/tree/main/components/containers/pages/works/tictactoe',
     icons: ['react', 'typescript', 'git'],

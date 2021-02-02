@@ -10,7 +10,7 @@ const AboutPage = () => (
       <div className="absolute pt-20 inset-0 h-full min-w-387">
         <div className="h-full pt-5 px-5 text-white">
           {works.map((work) => (
-            <WorkCard {...work} />
+            <WorkCard key={work.title} {...work} />
           ))}
         </div>
       </div>
