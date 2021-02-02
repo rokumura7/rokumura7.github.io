@@ -11,7 +11,7 @@ const ProfileContent = (props: ProfileContentProps) => (
     </h2>
     <div className="ml-10 w-96">
       {props.contents.map((content) => (
-        <p>- {content}</p>
+        <p key={content}>- {content}</p>
       ))}
     </div>
   </div>

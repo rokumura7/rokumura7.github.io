@@ -25,11 +25,16 @@ const Header = () => {
           {links.map((link) => {
             if (link.path == router.pathname)
               return (
-                <span className="text-green-300">
+                <span key={link.label} className="text-green-300">
                   <Link href={link.path}>{link.label}</Link>
                 </span>
               )
-            else return <Link href={link.path}>{link.label}</Link>
+            else
+              return (
+                <Link key={link.label} href={link.path}>
+                  {link.label}
+                </Link>
+              )
           })}
         </div>
         <div>

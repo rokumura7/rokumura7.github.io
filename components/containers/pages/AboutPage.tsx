@@ -13,7 +13,7 @@ const AboutPage = () => (
       <LeaningBackground />
       <div className="absolute pt-20 inset-0 h-full min-w-387">
         <div className="h-full">
-          <div className="h-3/5 pt-5 text-gray-400">
+          <div className="pt-5 text-gray-400">
             <div className="flex justify-center">
               <div className="px-5">
                 <Image path="/static/img/profile.png" round size="md" />
@@ -27,10 +27,10 @@ const AboutPage = () => (
                 <p>Always being hungry, am eating something.</p>
               </div>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center mb-5">
               <ul className="mt-5">
                 {contents.map((content) => (
-                  <li className="mb-5">
+                  <li key={content.title} className="mb-5">
                     <ProfileContent
                       title={content.title}
                       contents={content.contents}
@@ -39,12 +39,10 @@ const AboutPage = () => (
                 ))}
               </ul>
             </div>
-          </div>
-          <div className="h-2/5 p-2">
-            <div className="sm:w-3/5 m-auto">
+            <div className="sm:w-3/5 m-auto mb-5">
               <Icons icons={experiences} />
             </div>
-            <div className="mt-10 sm:w-3/5 m-auto">
+            <div className="sm:w-3/5 m-auto">
               <GitHubGrassGraph />
             </div>
           </div>
