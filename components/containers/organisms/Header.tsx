@@ -44,6 +44,7 @@ const Header = () => {
               size="md"
               url="https://www.facebook.com/reo.okumura.35/"
             />
+            <Icon type="tw" size="md" url="https://twitter.com/haxpig1" />
             <Icon type="gh" size="md" url="https://github.com/rokumura7" />
           </div>
         </div>
