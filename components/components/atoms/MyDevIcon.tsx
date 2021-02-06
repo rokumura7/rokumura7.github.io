@@ -40,7 +40,7 @@ export interface DevIconProps {
 }
 
 const getStyle = (props: DevIconProps) => {
-  const styles = ['inline-block', 'colored']
+  const styles = ['inline-block', 'colored', 'm-3', 'inline-block']
   styles.push(iconMap[props.icon])
   switch (props.size) {
     case 'sm':
