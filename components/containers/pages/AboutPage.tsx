@@ -43,7 +43,18 @@ const AboutPage = () => (
               <Icons icons={experiences} />
             </div>
             <div className="sm:w-3/5 m-auto">
-              <GitHubGrassGraph />
+              <img
+                className="m-auto mb-5"
+                src="https://camo.githubusercontent.com/b715bdbd85c0b2e1666986aed076b66c6e959f4e50b5e01ec8ee84aa454689a7/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d726f6b756d7572613726636f756e745f707269766174653d747275652673686f775f69636f6e733d74727565267468656d653d7261646963616c"
+                alt="rokumura7's GitHub stats"
+                data-canonical-src="https://github-readme-stats.vercel.app/api?username=rokumura7&amp;count_private=true&amp;show_icons=true&amp;theme=radical"
+              ></img>
+              <img
+                className="m-auto"
+                src="https://camo.githubusercontent.com/29205109916958306121916553114025b204412e038b4915c13406a65e649aa6/68747470733a2f2f6769746875622d70726f66696c652d74726f7068792e76657263656c2e6170702f3f757365726e616d653d726f6b756d75726137267468656d653d6461726b687562"
+                alt="trophy"
+                data-canonical-src="https://github-profile-trophy.vercel.app/?username=rokumura7&amp;theme=darkhub"
+              ></img>
             </div>
           </div>
         </div>
