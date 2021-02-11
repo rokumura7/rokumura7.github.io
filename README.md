@@ -9,9 +9,11 @@
 
 ## Using
 
+<div style="display: flex">
 <img src="static/img/logos/nextjs.png" width="128">
 <img src="static/img/logos/react.png" width="128">
 <img src="static/img/logos/tailwind-css.png" width="180">
+</div>
 
 ## Available Scripts
 
