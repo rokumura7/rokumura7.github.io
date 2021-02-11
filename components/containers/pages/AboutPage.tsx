@@ -1,6 +1,5 @@
 import Layout from '../layouts/Layout'
 import LeaningBackground from '../layouts/LeaningBackground'
-import GitHubGrassGraph from '../../components/atoms/GitHubGrassGraph'
 import Image from '../../components/atoms/Image'
 import Icons from '../../components/molecules/Icons'
 import ProfileContent from '../../components/molecules/ProfileContent'
