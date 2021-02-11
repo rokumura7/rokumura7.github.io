@@ -2,7 +2,7 @@ import { IconType } from '../components/components/atoms/MyDevIcon'
 
 export const experiences: IconType[] = [
   'java',
-  // 'scala',
+  'scala',
   'php',
   'javascript',
   'typescript',

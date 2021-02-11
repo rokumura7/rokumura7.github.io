@@ -1,5 +1,4 @@
 import SizeType from '@/utils/Styles/Size'
-import 'devicon'
 
 // aws docker git inttelj java javascript mysql nodejs php react scala swift typescript vue
 export type IconType =
@@ -13,7 +12,7 @@ export type IconType =
   | 'node'
   | 'php'
   | 'react'
-  // | 'scala'
+  | 'scala'
   | 'swift'
   | 'typescript'
   | 'vue'
@@ -28,7 +27,7 @@ const iconMap: { [key in IconType]: string } = {
   node: 'devicon-nodejs-plain-wordmark',
   php: 'devicon-php-plain',
   react: 'devicon-react-original-wordmark',
-  // scala: 'devicon-scala-plain',
+  scala: 'devicon-scala-plain',
   swift: 'devicon-swift-plain',
   typescript: 'devicon-typescript-plain',
   vue: 'devicon-vuejs-plain-wordmark',
