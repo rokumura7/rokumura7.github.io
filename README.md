@@ -11,25 +11,17 @@
 
 ## Using
 
-<style>
-div.readme_container {
-  display: flex;
-}
-.readme_container img {
-  object-fit: contain;
-  margin: 20px;
-  width: 128px
-}
-</style>
-<div class="readme_container">
-  <img src="static/img/logos/ts.png">
-  <img src="static/img/logos/nextjs.png">
-  <img src="static/img/logos/react.png">
+<div style="display: flex;">
+  <img src="static/img/logos/ts.png" style="object-fit: contain; margin: 20px;" width="128px">
+  <img src="static/img/logos/nextjs.png" style="object-fit: contain; margin: 20px;" width="128px">
+  <img src="static/img/logos/react.png" style="object-fit: contain; margin: 20px;" width="128px">
 </div>
-<div class="readme_container">
-  <img src="static/img/logos/tailwind-css.png">
-  <img src="static/img/logos/css.png">
-  <img src="static/img/logos/storybook.png">
+
+
+<div style="display: flex;">
+  <img src="static/img/logos/tailwind-css.png" style="object-fit: contain; margin: 20px;" width="128px">
+  <img src="static/img/logos/css.png" style="object-fit: contain; margin: 20px;" width="128px">
+  <img src="static/img/logos/storybook.png" style="object-fit: contain; margin: 20px;" width="128px">
 </div>
 
 ## Available Scripts
