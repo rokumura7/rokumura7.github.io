@@ -1,6 +1,8 @@
 # rokumura7's portfolio
 
-✨ [My Portfolio site](https://rokumura7.github.io/) ✨
+## ✨ [My Portfolio site](https://rokumura7.github.io/) ✨
+
+## Status
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/rokumura7/rokumura7.github.io/CodeQL)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/rokumura7/rokumura7.github.io/GitHubPages)
@@ -9,10 +11,25 @@
 
 ## Using
 
-<div style="display: flex">
-<img src="static/img/logos/nextjs.png" width="128">
-<img src="static/img/logos/react.png" width="128">
-<img src="static/img/logos/tailwind-css.png" width="180">
+<style>
+div.readme_container {
+  display: flex;
+}
+.readme_container img {
+  object-fit: contain;
+  margin: 20px;
+  width: 128px
+}
+</style>
+<div class="readme_container">
+  <img src="static/img/logos/ts.png">
+  <img src="static/img/logos/nextjs.png">
+  <img src="static/img/logos/react.png">
+</div>
+<div class="readme_container">
+  <img src="static/img/logos/tailwind-css.png">
+  <img src="static/img/logos/css.png">
+  <img src="static/img/logos/storybook.png">
 </div>
 
 ## Available Scripts
