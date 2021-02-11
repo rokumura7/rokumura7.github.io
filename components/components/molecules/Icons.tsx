@@ -7,7 +7,7 @@ export interface IconsProps {
 }
 
 const Icons = (props: IconsProps) => (
-  <div className="flex justify-center">
+  <div className="flex justify-center flex-wrap">
     {props.icons.map((lang) => (
       <MyDevIcon key={lang} icon={lang} size={props.size ? props.size : 'md'} />
     ))}
