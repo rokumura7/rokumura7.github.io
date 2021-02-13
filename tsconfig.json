@@ -30,6 +30,7 @@
     "**/*.ts",
     "**/*.tsx",
     "jest.config.js",
-    "tailwind.config.js"
+    "tailwind.config.js",
+    "i18n.js"
   ]
 }

@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import Icon from '../../components/atoms/Icon'
+import { withTranslation } from '../../../i18n'
+import { useTranslation } from 'react-i18next'
 
 const Header = () => {
   const links = [
@@ -18,6 +20,9 @@ const Header = () => {
     },
   ]
   const router = useRouter()
+
+  const { i18n, t } = useTranslation()
+
   return (
     <header className="font-bold bg-black text-white fixed w-full z-50">
       <nav className="flex items-center px-4 py-2">
@@ -37,6 +42,15 @@ const Header = () => {
               )
           })}
         </div>
+        <div className="mr-5">
+          <span
+            onClick={() =>
+              i18n.changeLanguage(i18n.language === 'en' ? 'ja' : 'en')
+            }
+          >
+            {t('header.lang')}
+          </span>
+        </div>
         <div>
           <div className="justify-between space-x-5">
             <Icon
@@ -53,4 +67,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default withTranslation()(Header)

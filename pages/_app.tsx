@@ -1,6 +1,7 @@
 import React from 'react'
 import App from 'next/app'
 import Head from 'next/head'
+import { appWithTranslation } from '../i18n'
 
 import '../styles/index.css'
 import '../styles/common.css'
@@ -22,4 +23,4 @@ class MyApp extends App {
   }
 }
 
-export default MyApp
+export default appWithTranslation(MyApp)
