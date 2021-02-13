@@ -5,7 +5,7 @@ div#__next,
 div#__next > div,
 div#__next > div > div {
   height: 100%;
-  min-width: 387px;
+  min-width: 420px;
 }
 
 .leaning {
