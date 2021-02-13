@@ -13,7 +13,7 @@ module.exports = {
         'accent-1': '#333',
       },
       minWidth: {
-        387: '387px',
+        420: '420px',
       },
     },
   },

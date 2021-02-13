@@ -14,10 +14,10 @@ const AboutPage = () => {
     <Layout>
       <div className="pt-20 bg-black">
         <LeaningBackground />
-        <div className="absolute pt-20 inset-0 h-full min-w-387">
+        <div className="absolute pt-20 inset-0 h-full min-w-420">
           <div className="h-full">
-            <div className="pt-5 text-gray-400 m-auto w-3/5">
-              <div className="sm:flex sm:justify-center">
+            <div className="pt-5 text-gray-400 m-auto sm:w-3/5">
+              <div className="flex justify-center">
                 <div className="px-5">
                   <Image path="/static/img/profile.jpg" round size="md" />
                 </div>
