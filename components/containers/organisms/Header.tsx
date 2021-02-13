@@ -48,7 +48,7 @@ const Header = () => {
               i18n.changeLanguage(i18n.language === 'en' ? 'ja' : 'en')
             }
           >
-            {t('header.lang')}
+            {t('header_lang')}
           </span>
         </div>
         <div>

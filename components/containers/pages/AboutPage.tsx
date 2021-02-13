@@ -22,9 +22,9 @@ const AboutPage = () => {
                   <Image path="/static/img/profile.jpg" round size="md" />
                 </div>
                 <div className="px-5 w-1/2">
-                  <h1 className="text-5xl text-white">{t('about.name')}</h1>
-                  <p>{t('about.phrase.1')}</p>
-                  <p>{t('about.phrase.2')}</p>
+                  <h1 className="text-5xl text-white">{t('about_name')}</h1>
+                  <p>{t('about_phrase_1')}</p>
+                  <p>{t('about_phrase_2')}</p>
                 </div>
               </div>
               <div className="flex justify-center mb-5">

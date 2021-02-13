@@ -1,16 +1,16 @@
 {
-  "header.lang": "日本語",
+  "header_lang": "日本語",
 
-  "about.name": "Reo Okumura",
-  "about.phrase.1": "I’m a freelance as a Full Stack Web Developer who likes Static Typing.",
-  "about.phrase.2": "Always being hungry, am eating something.",
+  "about_name": "Reo Okumura",
+  "about_phrase_1": "I’m a freelance as a Full Stack Web Developer who likes Static Typing.",
+  "about_phrase_2": "Always being hungry, am eating something.",
 
-  "about.topic.1": "EXPERIENCE",
-  "about.topic.1.1": "Project Leader.",
-  "about.topic.1.2": "Bridge Engineer.",
-  "about.topic.1.3": "Instructor of Programming for beginners or kids.",
+  "about_topic_1": "EXPERIENCE",
+  "about_topic_1_1": "Project Leader.",
+  "about_topic_1_2": "Bridge Engineer.",
+  "about_topic_1_3": "Instructor of Programming for beginners or kids.",
 
-  "about.topic.2": "INTERSTED",
-  "about.topic.2.1": "Object-oriented Programming.",
-  "about.topic.2.2": "Domain Driven Development."
+  "about_topic_2": "INTERSTED",
+  "about_topic_2_1": "Object-oriented Programming.",
+  "about_topic_2_2": "Domain Driven Development."
 }
