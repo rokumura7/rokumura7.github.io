@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <header className="font-bold bg-black text-white fixed w-full z-50">
       <nav className="flex items-center px-4 py-2">
-        <div className="flex-grow justify-between space-x-10">
+        <div className="flex-grow justify-between space-x-3 sm:space-x-10">
           {links.map((link) => {
             if (link.path == router.pathname)
               return (
@@ -51,7 +51,7 @@ const Header = () => {
             {t('header_lang')}
           </span>
         </div>
-        <div>
+        <div className="hidden sm:inline">
           <div className="justify-between space-x-5">
             <Icon
               type="fb"
@@ -60,6 +60,17 @@ const Header = () => {
             />
             <Icon type="tw" size="md" url="https://twitter.com/haxpig1" />
             <Icon type="gh" size="md" url="https://github.com/rokumura7" />
+          </div>
+        </div>
+        <div className="sm:hidden inline">
+          <div className="justify-between space-x-3">
+            <Icon
+              type="fb"
+              size="sm"
+              url="https://www.facebook.com/reo.okumura.35/"
+            />
+            <Icon type="tw" size="sm" url="https://twitter.com/haxpig1" />
+            <Icon type="gh" size="sm" url="https://github.com/rokumura7" />
           </div>
         </div>
       </nav>

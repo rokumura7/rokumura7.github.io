@@ -11,7 +11,7 @@ const WorkPage = () => {
     <Layout>
       <div className="pt-20 bg-black">
         <LeaningBackground />
-        <div className="absolute pt-20 inset-0 h-full min-w-387">
+        <div className="absolute pt-20 inset-0 h-full min-w-420">
           <div className="h-full pt-5 px-5 text-white">
             {works.map((work) => (
               <WorkCard

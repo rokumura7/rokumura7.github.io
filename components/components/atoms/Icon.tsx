@@ -27,7 +27,7 @@ const getIcon = (type: IconType) => {
 const getStyle = (size: SizeType) => {
   switch (size) {
     case 'sm':
-      return 'text-3xl'
+      return 'text-2xl'
     case 'lg':
       return 'text-5xl'
     default:
