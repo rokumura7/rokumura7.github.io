@@ -1,6 +1,6 @@
 import Layout from '../layouts/Layout'
 import LeaningBackground from '../layouts/LeaningBackground'
-import WorkCard, { WorkCardProps } from '../../components/molecules/WorkCard'
+import WorkCard from '../../components/molecules/WorkCard'
 import { works } from '../../../contents/Work'
 import { withTranslation } from '../../../i18n'
 import { useTranslation } from 'react-i18next'
