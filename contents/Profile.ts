@@ -2,15 +2,11 @@ import { ProfileContentProps } from '@/components/components/molecules/ProfileCo
 
 export const contents = [
   {
-    title: 'EXPERIENCE',
-    contents: [
-      'Project Leader.',
-      'Bridge Engineer.',
-      'Instructor of Programming for beginners or kids.',
-    ],
+    title: 'about_topic_1',
+    contents: ['about_topic_1_1', 'about_topic_1_2', 'about_topic_1_3'],
   },
   {
-    title: 'INTERESTED',
-    contents: ['Object-oriented Programming.', 'Domain Driven Development.'],
+    title: 'about_topic_2',
+    contents: ['about_topic_2_1', 'about_topic_2_2'],
   },
 ] as ProfileContentProps[]

@@ -32,8 +32,8 @@ const AboutPage = () => {
                   {contents.map((content) => (
                     <li key={content.title} className="mb-5">
                       <ProfileContent
-                        title={content.title}
-                        contents={content.contents}
+                        title={t(content.title)}
+                        contents={content.contents.map((c) => t(c))}
                       />
                     </li>
                   ))}
