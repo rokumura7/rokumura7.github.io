@@ -1,0 +1,19 @@
+{
+  "header_lang": "日本語",
+
+  "about_name": "Reo Okumura",
+  "about_phrase_1": "I’m a freelance as a Full Stack Web Developer who likes Static Typing.",
+  "about_phrase_2": "Always being hungry, am eating something.",
+
+  "about_topic_1": "EXPERIENCE",
+  "about_topic_1_1": "Project Leader.",
+  "about_topic_1_2": "Bridge Engineer.",
+  "about_topic_1_3": "Instructor of Programming for beginners or kids.",
+
+  "about_topic_2": "INTERSTED",
+  "about_topic_2_1": "Object-oriented Programming.",
+  "about_topic_2_2": "Domain Driven Development.",
+
+  "work_tictactoe_description": "Implemented React Tutorial using TypeScript and Tailwind CSS.",
+  "work_hungryshark_description": "Using SCRATCH, made a simple game. I was using it for instructing Programming for kids."
+}

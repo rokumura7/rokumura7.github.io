@@ -1,0 +1,19 @@
+{
+  "header_lang": "English",
+
+  "about_name": "奥村 れお",
+  "about_phrase_1": "静的型付け言語好きのフリーランスWebエンジニア",
+  "about_phrase_2": "いつも何か食べてる人",
+
+  "about_topic_1": "経験",
+  "about_topic_1_1": "プロジェクトリーダー",
+  "about_topic_1_2": "ブリッジエンジニア",
+  "about_topic_1_3": "エンジニア講師",
+
+  "about_topic_2": "関心事",
+  "about_topic_2_1": "オブジェクト指向プログラミング",
+  "about_topic_2_2": "ドメイン駆動開発",
+
+  "work_tictactoe_description": "ReactのチュートリアルをTypeScriptとTailwindCSSを用いて実装",
+  "work_hungryshark_description": "子ども向けプログラミング授業で用いていたSCRATCHで作成した簡単なゲーム"
+}
