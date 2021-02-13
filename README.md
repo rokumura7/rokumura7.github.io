@@ -4,8 +4,8 @@
 
 ## Status
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/rokumura7/rokumura7.github.io/CodeQL)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/rokumura7/rokumura7.github.io/GitHubPages)
+![CodeQL](https://github.com/rokumura7/rokumura7.github.io/workflows/CodeQL/badge.svg)
+![GitHubPages](https://github.com/rokumura7/rokumura7.github.io/workflows/GitHubPages/badge.svg)
 ![dependencies](https://david-dm.org/rokumura7/rokumura7.github.io.svg)
 ![devDependencies](https://david-dm.org/rokumura7/rokumura7.github.io/dev-status.svg)
 
@@ -16,7 +16,6 @@
   <img src="static/img/logos/nextjs.png" style="object-fit: contain; margin: 20px;" width="128px">
   <img src="static/img/logos/react.png" style="object-fit: contain; margin: 20px;" width="128px">
 </div>
-
 
 <div style="display: flex;">
   <img src="static/img/logos/tailwind-css.png" style="object-fit: contain; margin: 20px;" width="128px">
