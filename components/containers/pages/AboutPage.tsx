@@ -15,7 +15,7 @@ const AboutPage = () => (
           <div className="pt-5 text-gray-400">
             <div className="flex justify-center">
               <div className="px-5">
-                <Image path="/static/img/profile.png" round size="md" />
+                <Image path="/static/img/profile.jpg" round size="md" />
               </div>
               <div className="px-5">
                 <h1 className="text-5xl text-white">Reo Okumura</h1>
