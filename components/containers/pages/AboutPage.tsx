@@ -16,13 +16,13 @@ const AboutPage = () => {
         <LeaningBackground />
         <div className="absolute pt-20 inset-0 h-full min-w-387">
           <div className="h-full">
-            <div className="pt-5 text-gray-400">
-              <div className="flex justify-center">
+            <div className="pt-5 text-gray-400 m-auto w-3/5">
+              <div className="sm:flex sm:justify-center">
                 <div className="px-5">
                   <Image path="/static/img/profile.jpg" round size="md" />
                 </div>
-                <div className="px-5 w-1/2">
-                  <h1 className="text-5xl text-white">{t('about_name')}</h1>
+                <div className="px-5 sm:w-1/2">
+                  <h1 className="sm:text-5xl text-white">{t('about_name')}</h1>
                   <p>{t('about_phrase_1')}</p>
                   <p>{t('about_phrase_2')}</p>
                 </div>
