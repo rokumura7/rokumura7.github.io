@@ -12,5 +12,8 @@
 
   "about_topic_2": "INTERSTED",
   "about_topic_2_1": "Object-oriented Programming.",
-  "about_topic_2_2": "Domain Driven Development."
+  "about_topic_2_2": "Domain Driven Development.",
+
+  "work_tictactoe_description": "Implemented React Tutorial using TypeScript and Tailwind CSS.",
+  "work_hungryshark_description": "Using SCRATCH, made a simple game. I was using it for instructing Programming for kids."
 }

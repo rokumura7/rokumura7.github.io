@@ -12,5 +12,8 @@
 
   "about_topic_2": "関心事",
   "about_topic_2_1": "オブジェクト指向プログラミング",
-  "about_topic_2_2": "ドメイン駆動開発"
+  "about_topic_2_2": "ドメイン駆動開発",
+
+  "work_tictactoe_description": "ReactのチュートリアルをTypeScriptとTailwindCSSを用いて実装",
+  "work_hungryshark_description": "子ども向けプログラミング授業で用いていたSCRATCHで作成した簡単なゲーム"
 }
