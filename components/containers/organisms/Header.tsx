@@ -14,10 +14,10 @@ const Header = () => {
       path: '/about',
       label: 'About',
     },
-    {
-      path: '/works',
-      label: 'Works',
-    },
+    // {
+    //   path: '/works',
+    //   label: 'Works',
+    // },
   ]
   const router = useRouter()
 
