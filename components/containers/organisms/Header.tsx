@@ -44,6 +44,7 @@ const Header = () => {
         </div>
         <div className="mr-5">
           <span
+            className="cursor-pointer"
             onClick={() =>
               i18n.changeLanguage(i18n.language === 'en' ? 'ja' : 'en')
             }
