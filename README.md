@@ -6,8 +6,6 @@
 
 ![CodeQL](https://github.com/rokumura7/rokumura7.github.io/workflows/CodeQL/badge.svg)
 ![GitHubPages](https://github.com/rokumura7/rokumura7.github.io/workflows/GitHubPages/badge.svg)
-![dependencies](https://david-dm.org/rokumura7/rokumura7.github.io.svg)
-![devDependencies](https://david-dm.org/rokumura7/rokumura7.github.io/dev-status.svg)
 
 ## Using
 
